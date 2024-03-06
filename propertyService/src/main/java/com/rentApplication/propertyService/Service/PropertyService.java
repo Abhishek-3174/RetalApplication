@@ -15,7 +15,7 @@ public class PropertyService {
     public ResponseEntity<String> createProduct(ProductRequest productRequest)
     {
 
-        
+
         PropertyDetailsRepository product = PropertyDetailsRepository.builder()
                 .propertyName(productRequest.getPropertyName())
                 .propertyType(productRequest.getPropertyType())

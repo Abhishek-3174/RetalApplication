@@ -15,7 +15,4 @@ public class ProductRequest {
     private String status;
     private Integer increment;
     private Long rent;
-    //test
-//hh
-
 }

@@ -1,4 +1,4 @@
-package com.rentApplication.propertyService.Config;
+package com.rentApplication.propertyService.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductRequest {
+public class PropertyWrapper {
     private String propertyName;
     private String propertyType;
     private String status;

@@ -1,4 +1,4 @@
-package com.rentApplication.propertyService.Repository.GenericIdGenerator;
+package com.rentApplication.propertyService.Service;
 
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.id.IdentifierGenerator;

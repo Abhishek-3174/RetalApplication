@@ -1,4 +1,4 @@
-package com.rentApplication.propertyService.Repository;
+package com.rentApplication.propertyService.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,10 +14,10 @@ import org.hibernate.annotations.GenericGenerator;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity(name = "Property")
-public class PropertyDetailsRepository {
+public class Property {
     @Id
     @GeneratedValue(generator = "custom-id")
-    @GenericGenerator(name="custom-id",strategy = "com.rentApplication.propertyService.Repository.GenericIdGenerator.CustomIdGenerator")
+    @GenericGenerator(name="custom-id",strategy = "com.rentApplication.propertyService.Service.CustomIdGenerator")
     private String id;
     private String propertyName;
     private String propertyType;

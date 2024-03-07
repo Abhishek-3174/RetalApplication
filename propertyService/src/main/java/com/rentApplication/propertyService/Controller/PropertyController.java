@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("product")
+@RequestMapping("product") 
 public class PropertyController {
     @Autowired
     PropertyService propertyService;
